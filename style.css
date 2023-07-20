@@ -1,0 +1,39 @@
+body{
+    background-color: #60D394;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pizza{
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 1px solid gainsboro;
+
+}
+
+
+.small_pizza{
+    background-color: #EE6055;
+   
+}
+
+.medium_pizza{
+    background-color: #FFD97D ;
+   
+}
+
+.large_pizza{
+    background-color: #FF9B85;
+   
+}
+
+.contact_us{
+    background-color:#FF9B85;
+   
+}
+
+@media(min-width: 960px){
+    .pizzas{
+    display: flex;
+    }
+}
