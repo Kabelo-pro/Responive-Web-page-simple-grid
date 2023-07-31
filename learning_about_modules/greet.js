@@ -1,3 +1,5 @@
-module.exports = function greet(name){
-    return "Hello, " + name;
-}
+export function greet(name) {
+    // Your greeting code here...
+    return `Hello, ${name}`;
+  }
+  
